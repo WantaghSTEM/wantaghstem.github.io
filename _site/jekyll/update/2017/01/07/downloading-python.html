@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Downloading Python</title>
-  <meta name="description" content="Table of Contents Installing Python Linux Mac Windows Installing Sublime Text Package Control Anaconda Package Testing Python Installation Command Line Subli...">
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html">
@@ -66,13 +66,112 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="table-of-contents">Table of Contents</h2>
+    <style type="text/css">
+
+
+/** From the anaconda page */
+.content-button {
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "CalibreWeb-Regular", Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    padding-top: 0.75rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.5rem;
+    background-color: #253746;
+    border-color: #1e2c38;
+    color: #fff;
+    transition: background-color 300ms ease-out;
+    max-width: 18.75rem;
+    text-transform: uppercase
+}
+
+.content-button span {
+    font-family: Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 200;
+	font-size:90%;
+    color: #000;
+}
+
+.content-button:hover, .content-button:focus {
+    background-color: #1e2c38
+}
+
+.content-button:hover, .content-button:focus {
+    color: #fff
+}
+
+.content-button:hover, .content-button:focus {
+    text-decoration: none
+}
+
+.content-button[role="button"] {
+    display: block;
+    padding: 0.75rem 1.375rem;
+    text-align: center
+}
+
+.content-button--blue, .call-to-action__button, .cross-sell__button,
+input[type="submit"].cross-sell__button {
+    background-color: #089BCC;
+    border-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type="submit"].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type="submit"].cross-sell__button:focus {
+    background-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type="submit"].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type="submit"].cross-sell__button:focus {
+    color: #fff
+}
+
+.content-button--small {
+    /*font-size: 1.125rem;
+    max-width: 12.75rem; */
+}
+
+.content-button--small[role="button"] {
+    /*padding: 0.5625rem 0.875rem;*/
+}
+</style>
+
+<p><a href="http://www.python.org">Python</a> is one of the main languages that we’ve been teaching at TechDay over the past few years. We’re providing this resource in order to help people install Python on their computers at home, so that they can run the projects built during TechDay. While it’s relatively straightforward to install a generic Python version, we utilize several libraries to help make some of our projects, which could be difficult to install sometimes. You should be able to complete this installation within 10 - 15 minutes.</p>
+
+<p>We’ve included a video tutorial below to help you through the installation. We’ve also included written instructions, so please feel free to use whatever is convenient!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B-W-me5Y7F4" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="table-of-contents">Table of Contents</h2>
 <ul>
   <li><a href="#install-python">Installing Python</a>
     <ul>
-      <li><a href="#linux">Linux</a></li>
-      <li><a href="#mac">Mac</a></li>
-      <li><a href="#windows">Windows</a></li>
+      <li><a href="#mac">Mac</a>
+        <ul>
+          <li><a href="#mac-anaconda">Anaconda</a></li>
+          <li><a href="#mac-xquartz">XQuartz</a></li>
+          <li><a href="#mac-extensions">TechDay Extensions</a></li>
+        </ul>
+      </li>
+      <li><a href="#windows">Windows</a>
+        <ul>
+          <li><a href="#win-anaconda">Anaconda</a></li>
+          <li><a href="#win-extensions">TechDay Extensions</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li><a href="#install-sublime">Installing Sublime Text</a>
@@ -90,11 +189,55 @@
 </ul>
 
 <h3 id="installing-python"><a name="install-python"></a>Installing Python</h3>
-<h4 id="linux-installation"><a name="linux"></a>Linux Installation</h4>
-<h4 id="mac-installation"><a name="mac"></a>Mac Installation</h4>
-<h4 id="windows-installation"><a name="windows"></a>Windows Installation</h4>
+<p>We will be using a distribution of Python known as <a href="https://www.continuum.io/downloads">Anaconda</a>. This version ships with many popular Python libraries, and has become widely popular within both academia and industry. We will show you how to download <strong>Python 2.7</strong>, because some of the packages that we use are not yet supported on Python 3. We are looking to update our curriculum to Python 3.5 shortly, as it comes with many improvements over Python 2.7. When we do so, we will post follow-up instructions.</p>
+
+<p>As previously mentioned, we use Python version 2.7 for TechDay. So, if you have the 3.5 version of Anaconda already installed, this may conflict with the installation process below. In that case, you have two options: (1) remove the old Anaconda version; or (2) set up a <a href="http://conda.pydata.org/docs/using/envs.html">special environment</a> to run any TechDay related programs. If you choose the latter, you will need to install the extension libraries manually. Please email <a href="mailto:wantagh.technology@gmail.com">wantagh.technology@gmail.com</a>.</p>
+
+<h4 id="mac-installation"><a name="mac"></a><strong>Mac Installation</strong></h4>
+
+<h4 id="-anaconda-installation"><a name="mac-anaconda"></a> <em>Anaconda Installation</em></h4>
+<p>Click the following link to begin the installation of Anaconda Python. The file that you download will be an installer application, so proceed with the instructions on the installer as you would with any other application.</p>
+
+<p><a class="content-button content-button--blue content-button--small" href="https://repo.continuum.io/archive/Anaconda2-4.2.0-MacOSX-x86_64.pkg" role="button">Mac OS X 64-bit<br />
+   <span style="color:#000000; font-size:90%;">Anaconda 2.7</span></a></p>
+
+<p>However, you may run into the following issue:</p>
+
+<p><img src="/assets/osx-anaconda-error.png" alt="Blah" /></p>
+
+<p>To fix this, just click on the <strong>house</strong>, and you will get something like:</p>
+
+<p><img src="/assets/osx-anaconda-local.png" alt="Blah" /></p>
+
+<p><em>Note</em>: You can install Anaconda this way, however, this is not suggested. Instead, click the <strong>hard drive icon</strong> directly below the house. Then, you should get something like:</p>
+
+<p><img src="/assets/osx-anaconda-global.png" alt="Blah" /></p>
+
+<p>Finally, just click the “Choose Folder” button on the bottom right. You must now direct the installer where to put Anaconda - we suggest you put it in the <strong>Applications</strong> folder.</p>
+
+<h4 id="-xquartz-installation"><a name="mac-xquartz"></a> <em>XQuartz Installation</em></h4>
+
+<p>On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with.</p>
+
+<p><a class="content-button content-button--blue content-button--small" href="https://dl.bintray.com/xquartz/downloads/:XQuartz-2.7.10.dmg" role="button">Mac OS X 64-bit<br />
+   <span style="color:#000000; font-size:90%;">XQuartz 2.7.10</span></a></p>
+
+<h4 id="-techday-extensions"><a name="mac-extensions"></a> <em>TechDay Extensions</em></h4>
+
+<h4 id="windows-installation"><a name="windows"></a><strong>Windows Installation</strong></h4>
+
+<h4 id="-anaconda-installation-1"><a name="win-anaconda"></a> <em>Anaconda Installation</em></h4>
+<h4 id="-techday-extensions-1"><a name="win-extensions"></a> <em>TechDay Extensions</em></h4>
+
+<p><a class="content-button content-button--blue content-button--small" href="https://repo.continuum.io/archive/Anaconda2-4.2.0-Windows-x86_64.exe" role="button">Windows 64-bit<br />
+   <span style="color:#000000; font-size:90%;">Anaconda 2.7</span></a></p>
 
 <h3 id="installing-sublime-text"><a name="install-sublime"></a>Installing Sublime Text</h3>
+<p><a class="content-button content-button--blue content-button--small" href="https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg" role="button">Mac 64-bit<br />
+   <span style="color:#000000; font-size:90%;">Sublime Text 3</span></a></p>
+
+<p><a class="content-button content-button--blue content-button--small" href="https://download.sublimetext.com/Sublime%20Text%20Build%203126%20x64%20Setup.exe" role="button">Windows 64-bit<br />
+      <span style="color:#000000; font-size:90%;">Sublime Text 3</span></a></p>
 
 <h3 id="testing-python-installation"><a name="testing-python"></a>Testing Python Installation</h3>
 
