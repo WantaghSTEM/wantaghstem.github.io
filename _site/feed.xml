@@ -1,11 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-12T22:12:22-05:00</updated><id>http://localhost:4000//</id><title type="html">Wantagh TechDay</title><subtitle>Blog containing content for Wantagh TechDay resources.
-</subtitle><entry><title type="html">Getting Started with Web Design</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html" rel="alternate" type="text/html" title="Getting Started with Web Design" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write post about html/css/js and CS.300&lt;/p&gt;</content><summary type="html">To do: Write post about html/css/js and CS.300</summary></entry><entry><title type="html">Getting Started with Scratch</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html" rel="alternate" type="text/html" title="Getting Started with Scratch" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write blog post about logging into scratch account/making new&lt;/p&gt;</content><summary type="html">To do: Write blog post about logging into scratch account/making new</summary></entry><entry><title type="html">Downloading Python</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html" rel="alternate" type="text/html" title="Downloading Python" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-python</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-15T17:52:14-05:00</updated><id>http://localhost:4000//</id><title type="html">Wantagh TechDay</title><subtitle>Blog containing content for Wantagh TechDay resources.
+</subtitle><entry><title type="html">Getting Started with Web Design</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html" rel="alternate" type="text/html" title="Getting Started with Web Design" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write post about html/css/js and CS.300&lt;/p&gt;</content><summary type="html">To do: Write post about html/css/js and CS.300</summary></entry><entry><title type="html">Getting Started with Scratch</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html" rel="alternate" type="text/html" title="Getting Started with Scratch" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write blog post about logging into scratch account/making new&lt;/p&gt;</content><summary type="html">To do: Write blog post about logging into scratch account/making new</summary></entry><entry><title type="html">Downloading Python</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html" rel="alternate" type="text/html" title="Downloading Python" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-python</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html">&lt;style type=&quot;text/css&quot;&gt;
+
+
+/** From the anaconda page */
+.content-button {
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: &quot;CalibreWeb-Regular&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    padding-top: 0.75rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.5rem;
+    background-color: #253746;
+    border-color: #1e2c38;
+    color: #fff;
+    transition: background-color 300ms ease-out;
+    max-width: 18.75rem;
+    text-transform: uppercase
+}
+
+.content-button span {
+    font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 200;
+	font-size:90%;
+    color: #000;
+}
+
+.content-button:hover, .content-button:focus {
+    background-color: #1e2c38
+}
+
+.content-button:hover, .content-button:focus {
+    color: #fff
+}
+
+.content-button:hover, .content-button:focus {
+    text-decoration: none
+}
+
+.content-button[role=&quot;button&quot;] {
+    display: block;
+    padding: 0.75rem 1.375rem;
+    text-align: center
+}
+
+.content-button--blue, .call-to-action__button, .cross-sell__button,
+input[type=&quot;submit&quot;].cross-sell__button {
+    background-color: #089BCC;
+    border-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type=&quot;submit&quot;].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type=&quot;submit&quot;].cross-sell__button:focus {
+    background-color: #067ca3;
+}
+
+.content-button--blue:hover, .call-to-action__button:hover, .cross-sell__button:hover,
+input[type=&quot;submit&quot;].cross-sell__button:hover, .content-button--blue:focus,
+.call-to-action__button:focus, .cross-sell__button:focus, input[type=&quot;submit&quot;].cross-sell__button:focus {
+    color: #fff
+}
+
+.content-button--small {
+    /*font-size: 1.125rem;
+    max-width: 12.75rem; */
+}
+
+.content-button--small[role=&quot;button&quot;] {
+    /*padding: 0.5625rem 0.875rem;*/
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.python.org&quot;&gt;Python&lt;/a&gt; is one of the main languages that we’ve been teaching at TechDay over the past few years. We’re providing this resource in order to help people install Python on their computers at home, so that they can run the projects built during TechDay. While it’s relatively straightforward to install a generic Python version, we utilize several libraries to help make some of our projects, which could be difficult to install sometimes. You should be able to complete this installation within 10 - 15 minutes.&lt;/p&gt;
+
+&lt;p&gt;We’ve included a video tutorial below to help you through the installation. We’ve also included written instructions, so please feel free to use whatever is convenient!&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B-W-me5Y7F4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#install-python&quot;&gt;Installing Python&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#linux&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#mac&quot;&gt;Mac&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#windows&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mac&quot;&gt;Mac&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#mac-anaconda&quot;&gt;Anaconda&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#mac-xquartz&quot;&gt;XQuartz&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#mac-extensions&quot;&gt;TechDay Extensions&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#windows&quot;&gt;Windows&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#win-anaconda&quot;&gt;Anaconda&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#win-extensions&quot;&gt;TechDay Extensions&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#install-sublime&quot;&gt;Installing Sublime Text&lt;/a&gt;
@@ -23,30 +122,56 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;installing-python&quot;&gt;&lt;a name=&quot;install-python&quot;&gt;&lt;/a&gt;Installing Python&lt;/h3&gt;
-&lt;h4 id=&quot;linux-installation&quot;&gt;&lt;a name=&quot;linux&quot;&gt;&lt;/a&gt;Linux Installation&lt;/h4&gt;
-&lt;h4 id=&quot;mac-installation&quot;&gt;&lt;a name=&quot;mac&quot;&gt;&lt;/a&gt;Mac Installation&lt;/h4&gt;
-&lt;h4 id=&quot;windows-installation&quot;&gt;&lt;a name=&quot;windows&quot;&gt;&lt;/a&gt;Windows Installation&lt;/h4&gt;
+&lt;p&gt;We will be using a distribution of Python known as &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;. This version ships with many popular Python libraries, and has become widely popular within both academia and industry. We will show you how to download &lt;strong&gt;Python 2.7&lt;/strong&gt;, because some of the packages that we use are not yet supported on Python 3. We are looking to update our curriculum to Python 3.5 shortly, as it comes with many improvements over Python 2.7. When we do so, we will post follow-up instructions.&lt;/p&gt;
+
+&lt;p&gt;As previously mentioned, we use Python version 2.7 for TechDay. So, if you have the 3.5 version of Anaconda already installed, this may conflict with the installation process below. In that case, you have two options: (1) remove the old Anaconda version; or (2) set up a &lt;a href=&quot;http://conda.pydata.org/docs/using/envs.html&quot;&gt;special environment&lt;/a&gt; to run any TechDay related programs. If you choose the latter, you will need to install the extension libraries manually. Please email &lt;a href=&quot;mailto:wantagh.technology@gmail.com&quot;&gt;wantagh.technology@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;mac-installation&quot;&gt;&lt;a name=&quot;mac&quot;&gt;&lt;/a&gt;&lt;strong&gt;Mac Installation&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;-anaconda-installation&quot;&gt;&lt;a name=&quot;mac-anaconda&quot;&gt;&lt;/a&gt; &lt;em&gt;Anaconda Installation&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Click the following link to begin the installation of Anaconda Python. The file that you download will be an installer application, so proceed with the instructions on the installer as you would with any other application.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://repo.continuum.io/archive/Anaconda2-4.2.0-MacOSX-x86_64.pkg&quot; role=&quot;button&quot;&gt;Mac OS X 64-bit&lt;br /&gt;
+   &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;Anaconda 2.7&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, you may run into the following issue:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/osx-anaconda-error.png&quot; alt=&quot;Blah&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To fix this, just click on the &lt;strong&gt;house&lt;/strong&gt;, and you will get something like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/osx-anaconda-local.png&quot; alt=&quot;Blah&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: You can install Anaconda this way, however, this is not suggested. Instead, click the &lt;strong&gt;hard drive icon&lt;/strong&gt; directly below the house. Then, you should get something like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/osx-anaconda-global.png&quot; alt=&quot;Blah&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, just click the “Choose Folder” button on the bottom right. You must now direct the installer where to put Anaconda - we suggest you put it in the &lt;strong&gt;Applications&lt;/strong&gt; folder.&lt;/p&gt;
+
+&lt;h4 id=&quot;-xquartz-installation&quot;&gt;&lt;a name=&quot;mac-xquartz&quot;&gt;&lt;/a&gt; &lt;em&gt;XQuartz Installation&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://dl.bintray.com/xquartz/downloads/:XQuartz-2.7.10.dmg&quot; role=&quot;button&quot;&gt;Mac OS X 64-bit&lt;br /&gt;
+   &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;XQuartz 2.7.10&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;-techday-extensions&quot;&gt;&lt;a name=&quot;mac-extensions&quot;&gt;&lt;/a&gt; &lt;em&gt;TechDay Extensions&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;windows-installation&quot;&gt;&lt;a name=&quot;windows&quot;&gt;&lt;/a&gt;&lt;strong&gt;Windows Installation&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;-anaconda-installation-1&quot;&gt;&lt;a name=&quot;win-anaconda&quot;&gt;&lt;/a&gt; &lt;em&gt;Anaconda Installation&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;-techday-extensions-1&quot;&gt;&lt;a name=&quot;win-extensions&quot;&gt;&lt;/a&gt; &lt;em&gt;TechDay Extensions&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://repo.continuum.io/archive/Anaconda2-4.2.0-Windows-x86_64.exe&quot; role=&quot;button&quot;&gt;Windows 64-bit&lt;br /&gt;
+   &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;Anaconda 2.7&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;installing-sublime-text&quot;&gt;&lt;a name=&quot;install-sublime&quot;&gt;&lt;/a&gt;Installing Sublime Text&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg&quot; role=&quot;button&quot;&gt;Mac 64-bit&lt;br /&gt;
+   &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;Sublime Text 3&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://download.sublimetext.com/Sublime%20Text%20Build%203126%20x64%20Setup.exe&quot; role=&quot;button&quot;&gt;Windows 64-bit&lt;br /&gt;
+      &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;Sublime Text 3&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;testing-python-installation&quot;&gt;&lt;a name=&quot;testing-python&quot;&gt;&lt;/a&gt;Testing Python Installation&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Adapted from &lt;a href=&quot;http://www.cs.cornell.edu/courses/cs1110/2016fa/materials/python.php&quot;&gt;Cornell University&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</content><summary type="html">Table of Contents
-
-  Installing Python
-    
-      Linux
-      Mac
-      Windows
-    
-  
-  Installing Sublime Text
-    
-      Package Control
-      Anaconda Package
-    
-  
-  Testing Python Installation
-    
-      Command Line
-      Sublime Text</summary></entry><entry><title type="html">Downloading Android Studio</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio.html" rel="alternate" type="text/html" title="Downloading Android Studio" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write post about android studio/java installation&lt;/p&gt;</content><summary type="html">To do: Write post about android studio/java installation</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Adapted from &lt;a href=&quot;http://www.cs.cornell.edu/courses/cs1110/2016fa/materials/python.php&quot;&gt;Cornell University&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</content><summary type="html"></summary></entry><entry><title type="html">Downloading Android Studio</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio.html" rel="alternate" type="text/html" title="Downloading Android Studio" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-android-studio.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write post about android studio/java installation&lt;/p&gt;</content><summary type="html">To do: Write post about android studio/java installation</summary></entry></feed>
