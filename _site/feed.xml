@@ -1,5 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-15T17:52:14-05:00</updated><id>http://localhost:4000//</id><title type="html">Wantagh TechDay</title><subtitle>Blog containing content for Wantagh TechDay resources.
-</subtitle><entry><title type="html">Getting Started with Web Design</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html" rel="alternate" type="text/html" title="Getting Started with Web Design" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write post about html/css/js and CS.300&lt;/p&gt;</content><summary type="html">To do: Write post about html/css/js and CS.300</summary></entry><entry><title type="html">Getting Started with Scratch</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html" rel="alternate" type="text/html" title="Getting Started with Scratch" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html">&lt;p&gt;&lt;strong&gt;To do&lt;/strong&gt;: Write blog post about logging into scratch account/making new&lt;/p&gt;</content><summary type="html">To do: Write blog post about logging into scratch account/making new</summary></entry><entry><title type="html">Downloading Python</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html" rel="alternate" type="text/html" title="Downloading Python" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-python</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html">&lt;style type=&quot;text/css&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-03T14:48:21-05:00</updated><id>http://localhost:4000//</id><title type="html">Wantagh TechDay</title><subtitle>Blog containing content for Wantagh TechDay resources.</subtitle><entry><title type="html">Getting Started with Web Design</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html" rel="alternate" type="text/html" title="Getting Started with Web Design" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html">&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-sublime&quot;&gt;Installing Sublime Text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#creating-html-document&quot;&gt;Creating an HTML Document&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#html-elements&quot;&gt;HTML Elements&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-title&quot;&gt;Title&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-paragraph&quot;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-selecting-elements&quot;&gt;Selecting Elements&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-color&quot;&gt;Color&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html-background&quot;&gt;Background&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#javascript&quot;&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#learning-more&quot;&gt;Learning More&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;getting-started&quot;&gt;&lt;a name=&quot;getting-started&quot;&gt;&lt;/a&gt;Getting Started&lt;/h3&gt;
+&lt;p&gt;To write our HTML, CSS and JavaScript Code, we will be using a popular text editor called &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text&lt;/a&gt;. This is a good, simple text editor that supports many different languages and comes with automatic code completion.&lt;/p&gt;
+
+&lt;h3 id=&quot;installing-sublime-text&quot;&gt;&lt;a name=&quot;install-sublime&quot;&gt;&lt;/a&gt;Installing Sublime Text&lt;/h3&gt;
+&lt;p&gt;On the download page, choose the option for the machine you are working on and wait for it to download. After the installer is finished downloading, open it and follow the steps provided.&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-a-html-document&quot;&gt;&lt;a name=&quot;creating-html-document&quot;&gt;&lt;/a&gt;Creating a HTML Document&lt;/h3&gt;
+&lt;p&gt;Once you’re in Sublime Text, save your file with a &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; extension (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;). Once your file is saved, start with the basic layout of an HTML page. Your page should start with &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;/code&gt; which will tell your web browser which type of document it is working with. You should then include a &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; tag which shows the beginning of the html document followed by the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt;. Don’t forget to close all of your tags. The snippet below shows the basic layout for a HTML page.&lt;/p&gt;
+
+&lt;p&gt;To open your document, navigate to where you saved the file and double click to open it.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;html-elements&quot;&gt;&lt;a name=&quot;html-elements&quot;&gt;&lt;/a&gt;HTML Elements&lt;/h3&gt;
+&lt;h4&gt;Title&lt;/h4&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; tag can be used to give your webpage a name. The title is the text that appears on the tab in your web browser. The title tag should be included inside your head. You can see an example below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;My New Page&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Paragraph&lt;/h4&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; Tag is used to create a paragraph. This is text that will be displayed on your web page. You can put whatever text you want inside your paragraph.This tag should be inside of the body.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Writing HTML code is a lot of fun!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Images&lt;/h4&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag can be used to add images to your web page. You can include any image you want on your page. The example below will show how to add an image you found on the internet by using it’s URL. The image’s SRC should be a link to the image. Similar to the paragraph, this tag should also be included in the body.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.com/myFirstImage.jpg'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Links&lt;/h4&gt;
+&lt;p&gt;Using the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag, you can limk to any other page on the internet. You can do this by finding a page’s url and including it as the href in your tag. You should include the text that you want to be displayed on your web page between the opening and closing &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag. This tag will also be found in your body.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.google.com&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Click me to go to Google!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;###&lt;a name=&quot;css&quot;&gt;&lt;/a&gt;CSS
+If you wish to add “style” to your website, you must use CSS. CSS is used to change the colors, backgrounds, fonts, etc. of a website. Your CSS should go inside of &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tags which will be found inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;YOUR&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;CSS&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;HERE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Selecting Elements&lt;/h4&gt;
+&lt;p&gt;To apply styles to a certain type of tag, using CSS you give the type of element and put the style for that type of element inside of clurly braces “{}”. The example below is applying styles to all of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;err&quot;&gt;{PARAGRAPH&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;STYLES&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;HERE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4&gt;Color&lt;/h4&gt;
+&lt;p&gt;To change the color of an element you can change the color of elements by folowing the example below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This example will change the color of all the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; elements to red.&lt;/p&gt;
+&lt;h4&gt;Backgrounds&lt;/h4&gt;
+&lt;p&gt;You can change the background of an element using background-color or background-image. The example below shows how to change the background of your webpage to a solid red.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This will allow you to change to color of your background.
+Adding an image of the background of your page is very similar to chaging the color. With a background image, you need to provide the url of your image. This can be seen in the example below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url('http://www.google.com/myBackgroundImage')&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;javascript&quot;&gt;&lt;a name=&quot;javascript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h3&gt;
+&lt;p&gt;JavaScript is used to add dynamic (changing) content to your web page. JavaScript is a great tool for manipulating a page’s content and the styles of that content. You can find some great JavaScript Tutorials on &lt;a href=&quot;http://www.w3schools.com/js/default.asp&quot;&gt;W3Schools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-more&quot;&gt;&lt;a name=&quot;learning-more&quot;&gt;&lt;/a&gt;Learning More&lt;/h3&gt;
+&lt;p&gt;If you’re interested in learning more about web design, two great resources are listed below.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3schools.com/&quot;&gt;W3Schools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/web&quot;&gt;Codecademy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">Table of Contents
+
+  Getting Started
+  Installing Sublime Text
+  Creating an HTML Document
+  HTML Elements
+    
+      Title
+      Paragraph
+      Images
+      Links
+      Selecting Elements
+      Color
+      Background
+    
+  
+  JavaScript
+  Learning More</summary></entry><entry><title type="html">Getting Started with Scratch</title><link href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html" rel="alternate" type="text/html" title="Getting Started with Scratch" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-scratch.html">&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;MIT Scratch has been taught at the beginner-level classes at TechDay since its inception. It’s extremely easy to use, and does not require downloading any software to your computer (although it is possible to do this to have offline access).&lt;/p&gt;
+
+&lt;h3 id=&quot;logging-in&quot;&gt;Logging In&lt;/h3&gt;
+&lt;p&gt;To access Scratch, head over to &lt;a href=&quot;http://scratch.mit.edu&quot;&gt;scratch.mit.edu&lt;/a&gt;. If you attended TechDay, or otherwise already have an account, click on “Sign In” and input your username and password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-login.png&quot; alt=&quot;Scratch Login&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;make-an-account&quot;&gt;Make an Account&lt;/h3&gt;
+
+&lt;p&gt;If you do not have an account, click “Join Scratch” and answer a few basic questions, as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-join.png&quot; alt=&quot;Make an Account&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;access-game-from-techday&quot;&gt;Access Game from TechDay&lt;/h3&gt;
+
+&lt;p&gt;Once you’re logged in, you can either make a new game, or access the Asteroid game that we made during TechDay. This game was made in the CS.100, CS.101, and CS.102 classes. To access the Asteroid game, search “wantaghtechday” in the search bar at the top of your screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-search.png&quot; alt=&quot;Search wantaghtechday&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You should now be at the Wantagh TechDay Scratch account. To recreate the game using the instructions you receievd during your class, click on the “Asteroid Game Template”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-template.png&quot; alt=&quot;Click Asteroid Template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once on the game page, click the “See Inside” button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-see-inside.png&quot; alt=&quot;See Inside&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once inside, you should be able to click the remix button to add this game to your account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-remix.png&quot; alt=&quot;Remix&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, just click through the confirmation page, to add a copy of the game to your account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-remix-confirmation.png&quot; alt=&quot;Remix Confirmation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, go back to your profile, and you should see a copy of the game in the “My Stuff” section, as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/scratch-my-stuff.png&quot; alt=&quot;My Stuff&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations! You’ve successfully added a copy of the game to your account. Feel free to change and add more to the game. You can also make a new game, or remix another cool game that you’ve found using the same instructions. You can also search games just to play them, most of which you can start by clicking the green flag at the top of the game.&lt;/p&gt;</content><summary type="html">Overview</summary></entry><entry><title type="html">Downloading Python</title><link href="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html" rel="alternate" type="text/html" title="Downloading Python" /><published>2017-01-07T23:07:12-05:00</published><updated>2017-01-07T23:07:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/01/07/downloading-python</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/07/downloading-python.html">&lt;style type=&quot;text/css&quot;&gt;
 
 
 /** From the anaconda page */
@@ -150,7 +339,7 @@ input[type=&quot;submit&quot;].cross-sell__button:hover, .content-button--blue:f
 
 &lt;h4 id=&quot;-xquartz-installation&quot;&gt;&lt;a name=&quot;mac-xquartz&quot;&gt;&lt;/a&gt; &lt;em&gt;XQuartz Installation&lt;/em&gt;&lt;/h4&gt;
 
-&lt;p&gt;On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with.&lt;/p&gt;
+&lt;p&gt;On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with. &lt;em&gt;Note&lt;/em&gt;: some of the games that we’ve made need this to be installed, but you don’t need it for general python programming on your Mac.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;content-button content-button--blue content-button--small&quot; href=&quot;https://dl.bintray.com/xquartz/downloads/:XQuartz-2.7.10.dmg&quot; role=&quot;button&quot;&gt;Mac OS X 64-bit&lt;br /&gt;
    &lt;span style=&quot;color:#000000; font-size:90%;&quot;&gt;XQuartz 2.7.10&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
