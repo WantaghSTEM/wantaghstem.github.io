@@ -141,7 +141,7 @@ Finally, just click the "Choose Folder" button on the bottom right. You must now
 
 #### <a name="mac-xquartz"></a> *XQuartz Installation*
 
-On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with.
+On top of Anaconda Python, macOS also needs a software known as XQuartz. XQuartz is used for scientific computing software. To do this, just click the button above and run the installer (click .pkg file), following the directions you are prompted with. *Note*: some of the games that we've made need this to be installed, but you don't need it for general python programming on your Mac.
 
 <a class="content-button content-button--blue content-button--small" href="https://dl.bintray.com/xquartz/downloads/:XQuartz-2.7.10.dmg" role="button">Mac OS X 64-bit<br>
    <span style="color:#000000; font-size:90%;">XQuartz 2.7.10</span></a>

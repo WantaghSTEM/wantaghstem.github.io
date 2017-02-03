@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Getting Started with Web Design</title>
-  <meta name="description" content="To do: Write post about html/css/js and CS.300">
+  <meta name="description" content="Table of Contents Getting Started Installing Sublime Text Creating an HTML Document HTML Elements Title Paragraph Images Links Selecting Elements Color Backg...">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/01/07/getting-started-with-web-design.html">
@@ -66,7 +66,139 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><strong>To do</strong>: Write post about html/css/js and CS.300</p>
+    <h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#getting-started">Getting Started</a></li>
+  <li><a href="#install-sublime">Installing Sublime Text</a></li>
+  <li><a href="#creating-html-document">Creating an HTML Document</a></li>
+  <li><a href="#html-elements">HTML Elements</a>
+    <ul>
+      <li><a href="#html-title">Title</a></li>
+      <li><a href="#html-paragraph">Paragraph</a></li>
+      <li><a href="#html-images">Images</a></li>
+      <li><a href="#html-links">Links</a></li>
+      <li><a href="#html-selecting-elements">Selecting Elements</a></li>
+      <li><a href="#html-color">Color</a></li>
+      <li><a href="#html-background">Background</a></li>
+    </ul>
+  </li>
+  <li><a href="#javascript">JavaScript</a></li>
+  <li><a href="#learning-more">Learning More</a></li>
+</ul>
+
+<h3 id="getting-started"><a name="getting-started"></a>Getting Started</h3>
+<p>To write our HTML, CSS and JavaScript Code, we will be using a popular text editor called <a href="https://www.sublimetext.com/3">Sublime Text</a>. This is a good, simple text editor that supports many different languages and comes with automatic code completion.</p>
+
+<h3 id="installing-sublime-text"><a name="install-sublime"></a>Installing Sublime Text</h3>
+<p>On the download page, choose the option for the machine you are working on and wait for it to download. After the installer is finished downloading, open it and follow the steps provided.</p>
+
+<h3 id="creating-a-html-document"><a name="creating-html-document"></a>Creating a HTML Document</h3>
+<p>Once you’re in Sublime Text, save your file with a <code class="highlighter-rouge">.html</code> extension (e.g. <code class="highlighter-rouge">index.html</code>). Once your file is saved, start with the basic layout of an HTML page. Your page should start with <code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code> which will tell your web browser which type of document it is working with. You should then include a <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag which shows the beginning of the html document followed by the <code class="highlighter-rouge">&lt;head&gt;</code> and the <code class="highlighter-rouge">&lt;body&gt;</code>. Don’t forget to close all of your tags. The snippet below shows the basic layout for a HTML page.</p>
+
+<p>To open your document, navigate to where you saved the file and double click to open it.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+  <span class="nt">&lt;html&gt;</span>
+      <span class="nt">&lt;head&gt;</span>
+
+      <span class="nt">&lt;/head&gt;</span>
+      <span class="nt">&lt;body&gt;</span>
+
+      <span class="nt">&lt;/body&gt;</span>
+  <span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<h3 id="html-elements"><a name="html-elements"></a>HTML Elements</h3>
+<h4>Title</h4>
+<p>The <code class="highlighter-rouge">&lt;title&gt;</code> tag can be used to give your webpage a name. The title is the text that appears on the tab in your web browser. The title tag should be included inside your head. You can see an example below.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>My New Page<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<h4>Paragraph</h4>
+<p>The <code class="highlighter-rouge">&lt;p&gt;</code> Tag is used to create a paragraph. This is text that will be displayed on your web page. You can put whatever text you want inside your paragraph.This tag should be inside of the body.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Writing HTML code is a lot of fun!<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<h4>Images</h4>
+<p>The <code class="highlighter-rouge">&lt;img&gt;</code> tag can be used to add images to your web page. You can include any image you want on your page. The example below will show how to add an image you found on the internet by using it’s URL. The image’s SRC should be a link to the image. Similar to the paragraph, this tag should also be included in the body.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">'http://www.google.com/myFirstImage.jpg'</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<h4>Links</h4>
+<p>Using the <code class="highlighter-rouge">&lt;a&gt;</code> tag, you can limk to any other page on the internet. You can do this by finding a page’s url and including it as the href in your tag. You should include the text that you want to be displayed on your web page between the opening and closing <code class="highlighter-rouge">&lt;a&gt;</code> tag. This tag will also be found in your body.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://www.google.com"</span><span class="nt">&gt;</span>Click me to go to Google!<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>###<a name="css"></a>CSS
+If you wish to add “style” to your website, you must use CSS. CSS is used to change the colors, backgrounds, fonts, etc. of a website. Your CSS should go inside of <code class="highlighter-rouge">&lt;style&gt;</code> tags which will be found inside the <code class="highlighter-rouge">&lt;head&gt;</code></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="p">{</span><span class="err">YOUR</span> <span class="err">CSS</span> <span class="err">HERE</span><span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<h4>Selecting Elements</h4>
+<p>To apply styles to a certain type of tag, using CSS you give the type of element and put the style for that type of element inside of clurly braces “{}”. The example below is applying styles to all of the <code class="highlighter-rouge">&lt;p&gt;</code> tags.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">p</span><span class="p">{</span>
+          <span class="err">{PARAGRAPH</span> <span class="err">STYLES</span> <span class="err">HERE</span><span class="p">}</span>
+        <span class="err">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<h4>Color</h4>
+<p>To change the color of an element you can change the color of elements by folowing the example below.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">p</span><span class="p">{</span>
+          <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<p>This example will change the color of all the <code class="highlighter-rouge">&lt;p&gt;</code> elements to red.</p>
+<h4>Backgrounds</h4>
+<p>You can change the background of an element using background-color or background-image. The example below shows how to change the background of your webpage to a solid red.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">body</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<p>This will allow you to change to color of your background.
+Adding an image of the background of your page is very similar to chaging the color. With a background image, you need to provide the url of your image. This can be seen in the example below.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">body</span><span class="p">{</span>
+            <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('http://www.google.com/myBackgroundImage')</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<h3 id="javascript"><a name="javascript"></a>JavaScript</h3>
+<p>JavaScript is used to add dynamic (changing) content to your web page. JavaScript is a great tool for manipulating a page’s content and the styles of that content. You can find some great JavaScript Tutorials on <a href="http://www.w3schools.com/js/default.asp">W3Schools</a>.</p>
+
+<h3 id="learning-more"><a name="learning-more"></a>Learning More</h3>
+<p>If you’re interested in learning more about web design, two great resources are listed below.</p>
+<ul>
+  <li><a href="http://www.w3schools.com/">W3Schools</a></li>
+  <li><a href="https://www.codecademy.com/learn/web">Codecademy</a></li>
+</ul>
 
   </div>
 
@@ -117,8 +249,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Blog containing content for Wantagh TechDay resources.
-</p>
+        <p>Blog containing content for Wantagh TechDay resources.</p>
       </div>
     </div>
 
